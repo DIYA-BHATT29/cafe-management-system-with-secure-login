@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class CafeManagementSystem extends JFrame implements ActionListener {
-    // Components of the Form
+   
     private Container c;
     private JLabel title;
     private JLabel itemName;
