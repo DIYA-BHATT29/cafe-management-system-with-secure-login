@@ -30,17 +30,17 @@ class CafeManagementSystem extends JFrame implements ActionListener {
     private JTextArea outputArea;
     private JLabel status;
     
-    // In-memory data storage
+    
     private List<MenuItem> menuItems;
     
-    // Categories for the combo box
+    
     private String[] categories = {
         "Coffee", "Tea", "Cold Drinks", 
         "Sandwiches", "Pastries", "Breakfast",
         "Lunch", "Desserts", "Specialty Items"
     };
 
-    // MenuItem class to store item data
+    
     private class MenuItem {
         String name;
         double price;
@@ -67,9 +67,9 @@ class CafeManagementSystem extends JFrame implements ActionListener {
         }
     }
 
-    // constructor
+    
     public CafeManagementSystem() {
-        // Initialize the menu items list
+        
         menuItems = new ArrayList<>();
         
         setTitle("Cafe Management System");
